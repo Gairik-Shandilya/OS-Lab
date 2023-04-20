@@ -1,3 +1,10 @@
+/*The concept of overlays is that whenever a process is running it will not use 
+the complete program at the same time, it will use only some part of it. 
+Then overlays concept says that whatever part you required, 
+you load it and once the part is done, then you just unload it, 
+means just pull it back and get the new part you required and run it. */
+
+
 //Execute the following program and write the output
 
 // $vi ex51.c ----filename
