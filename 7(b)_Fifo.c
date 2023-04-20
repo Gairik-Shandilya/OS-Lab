@@ -19,3 +19,7 @@ int main(){
   }
   return 0;
 }
+/*OUTPUT-
+Child writing into FIFO
+Parent reads from FIFO : Hello
+*/
