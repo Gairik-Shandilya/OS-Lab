@@ -8,7 +8,7 @@ int main(){
   scanf("%d",&n);
   pid=fork();
   if(pid==0){
-    for (int i=1;i<=n;i+=2){
+    for (int i=1; i<=n; i+=2){
       if(i%2==0){
         oddsum+=i;
       }
@@ -17,7 +17,7 @@ int main(){
   }
   else{
     wait(NULL);
-    for(int i=2;i<=n;i+=2){
+    for(int i=2; i<=n; i+=2){
       evensum+=i;
     }
     printf("Sum of even numbers: %d \n",evensum);
